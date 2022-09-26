@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>airtel website</title>
+    
+    <style>
+        * {
+            padding: 0;
+            margin: 0;
+        }
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        header {
+            
+            color: black;
+            height: 80px;
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            z-index: 1;
+        }
+        a {
+            text-decoration: none;
+
+        }
+        header div {
+            display: inline-block;
+        }
+        .navigation {
+            width: 50%;
+        }
+        header ul li {
+            list-style: none;
+            display: inline;
+            margin: 0px 10px;
+            padding: 20px 0px;
+
+        }
+
+        header li a {
+            color:black;
+            font-size: 20px;
+            font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif,;
+        }
+        .navigation {
+            margin-left: 600px;
+        }
+        .home {
+            background-color: white;
+            color: black;
+            padding: 100px;
+            text-align: center;
+        }
+        .home .col {
+            width: 48%;
+            display: inline-block;
+        }
+        .home .cta-left {
+            position: relative;
+        }
+        .home .cta-right div img {
+            height: 400px;
+            width: 100%;
+            position: relative;
+        }
+        img {
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+        }
+        .cta-left {
+            padding: 0px;
+        }
+        .cta-left h1 {
+            color: red;
+            margin: 0px 0;
+            font-size: 60px;
+            line-height: 75px;
+        }
+        .cta-left p {
+            font-size: 22px;
+            margin: 20px 0;
+            line-height: 50px;
+        }
+        button {
+            background-color:white;
+            color:black;
+            padding: 10px 20px;
+            margin: 10px 0;
+            border-radius: 0%;
+            width: 20%;
+        }
+        .about{
+            text-align: center;
+            background-color:white;
+            color: black;
+            padding: 100px;
+        }
+        .about h2 {
+            font-size: 40px;
+            font-family: Arial, Helvetica, sans-serif;
+            text-align: center;
+            margin: 50px;
+        }
+        .about-center img{
+            height: 400px;
+            width: 70%;
+            position:relative;  
+        }
+        .features-wrapper > div{
+            width: 33%;
+            display: inline-block;
+            /* border: 2px solid red; */
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="brand_logo">
+            <img height="60" src="https://dltconnect.airtel.in/static/landing_layout/new_layout/images/logo.png" alt="">
+        </div>
+        <div class="navigation">
+            <ul>
+                <li><a href="#home">HOME</a></li>
+                <li><a href="#about">ABOUT</a></li>
+                <li><a href="#">FAQs</a></li>
+                <li><a href="#">CONTACT US</a></li>
+                <li><a href="#">LET US HELP YOU</a></li>
+            </ul>
+        </div>
+    </header>
+    <section class="home" id="home">
+        <div class="container">
+            <div class="row">
+                <div class="col">
+                    <div class="cta-left">
+                        <h1>A Secured <br> DLT platform
+                        </h1>
+                        <p>to manage your <br> commerical communication</p>
+                        <button type="submit">LOGIN</button><button type="submit">SIGNUP</button>
+                    </div>
+                </div>
+                <div class="col cta right">
+                    <img src="https://dltconnect.airtel.in/static/landing_layout/new_layout/images/hero.png" alt="" height="60%" width="60%">
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="about" id="about">
+        <h2>Solving the Unsolicited Communication Crisis</h2>
+        <p>Trubloq is a blockchain-based Stack that empowers individuals to truly own, control and manage
+            <br>
+            their Commercial Communications, enabling businesses to build trusted relationships with their consumers.
+        </p>
+        
+    </section>
+    <section>
+        <div class="about-center img">
+            <img src="https://dltconnect.airtel.in/static/landing_layout/new_layout/images/key-features.png" alt="">
+        </div>
+    </section>
+    <section>
+        <div class="features-wrapper">
+            <div>
+                <div>
+                    <img src="https://dltconnect.airtel.in/static/landing_layout/new_layout/images/feature_1.png" alt="">
+                </div>
+                <p>Built for Trust across ecosystem to <br> safeguard users from UCC and enhance <br> customer experience.</p>
+            </div>
+            <div>
+                <div>
+                    <img src="https://dltconnect.airtel.in/static/landing_layout/new_layout/images/feature_2.png" alt="">
+                </div>
+                <p>Zero tolerance to data privacy and security <br> by ensuring customer data like consent & <br> preference</p>
+            </div>
+            <div>
+                <div>
+                    <img src="https://dltconnect.airtel.in/static/landing_layout/new_layout/images/feature_4.png" alt="">
+                </div>
+                <p>Eliminate unregistered telemarketers using <br> Honey pots, Cognitive Computing and AI & <br> ML</p>
+            </div>
+        </div>
+    </section>
+</body>
+</html>
